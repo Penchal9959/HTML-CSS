@@ -1,0 +1,99 @@
+/* position static */
+
+/* div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /*text-align: right;*/
+/*position: static;
+}
+/*.one {
+  background: blue;
+  text-align: left;
+}
+.two {
+  background: green;
+}
+.special {
+  background: palevioletred;
+  font-size: 20px;
+} */
+
+/* POSITION RELATIVE */
+/* div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /*text-align: right;*/
+/*position: static;
+}
+.one {
+  background: blue;
+  position: relative;
+  /* top:50px; */
+/*left:20rem;*/
+/*right: 50%;
+  bottom: 20px;
+}
+.two {
+  background: green;
+}
+.special {
+  background: palevioletred;
+  font-size: 20px;
+}
+
+/* POSITION ABSOLUTE */
+/*div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /*text-align: right;*/
+/*position: static;*/
+/*position: relative;
+}
+.one {
+  background: blue;
+}
+.two {
+  background: green;
+}
+.special {
+  background: palevioletred;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* POSITION FIXED*/
+button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /*text-align: right;*/
+  /*position: static;*/
+  /*position: relative;*/
+}
+.one {
+  background: blue;
+}
+.two {
+  background: green;
+}
+.special {
+  background: palevioletred;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}

@@ -1,0 +1,17 @@
+/* RGB red green blue (0, 255) */
+
+#first {
+  color: rgb(255, 0, 0);
+  background-color: grey;
+}
+#second {
+  color: rgb(0, 0, 255);
+}
+/* (255, 0, 0)= red 
+(0, 255, 0)= green
+(0, 0, 0)=black
+(0, 0, 255)= blue
+(255, 255, 255)=white*/
+body {
+  background: rgb(150, 200, 0);
+}

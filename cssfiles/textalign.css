@@ -1,0 +1,29 @@
+/*
+ text-align
+ text-indent
+ */
+
+/*body {
+  text-align: center;
+}*/
+.one {
+  font-size: 40px;
+  text-align: left;
+}
+.two {
+  font-size: 40px;
+  text-align: right;
+}
+.para1 {
+  font-size: 20px;
+  text-align: left;
+  text-indent: 10px;
+}
+.para2 {
+  font-size: 20px;
+  text-align: right;
+  text-indent: 30px;
+}
+.para3 {
+  text-indent: 10rem;
+}

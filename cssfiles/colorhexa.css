@@ -1,0 +1,28 @@
+/*
+HSL
+HEX values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+            10 11 12 13 14 15
+            #FF0000=red
+            #00FF00=green 
+            pic up from (coolors.co) */
+
+body {
+  background: rgba(0, 153, 255, 0.4);
+}
+#one {
+  color: #ff0000;
+  background: rgb(134, 134, 161);
+}
+#two {
+  color: #00ff00;
+  background: #0000ff;
+}
+#three {
+  color: #ff00ff;
+  background: #f253a7;
+}
+#four {
+  color: #00ffff;
+  background: #0f0f0f;
+}

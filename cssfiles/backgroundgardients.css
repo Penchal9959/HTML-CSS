@@ -1,0 +1,23 @@
+div {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(red, green);
+}
+.two {
+  background: linear-gradient(to top, red, green, yellow, blue);
+}
+.three {
+  background: linear-gradient(150deg, red, green);
+}
+.four {
+  background: linear-gradient(to top left, red, green);
+}
+.five {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+.six {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}

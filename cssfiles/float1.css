@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  float: left;
+  width: 33.33%;
+  height: 400px;
+}
+.one {
+  /*float: left;*/
+  background: red;
+  /*width: 33.33%; */
+  /* height: 200px; */
+}
+.two {
+  /*float: left;*/
+  background: blue;
+  /*width: 33.33%;*/
+  /* height: 200px;*/
+}
+.three {
+  /*float: left;*/
+  background: green;
+  /* width: 33.33%;*/
+  /* height: 200px;*/
+}
+h1 {
+  clear: both;
+}

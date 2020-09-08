@@ -1,0 +1,25 @@
+/*
+display:none
+opacity:0
+visibility:hidden
+*/
+div {
+  background: blue;
+  margin: 10px;
+  color: white;
+}
+.none {
+  display: none;
+}
+.opacity-1 {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.visibility {
+  visibility: hidden;
+}

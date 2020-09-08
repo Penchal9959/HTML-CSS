@@ -1,0 +1,57 @@
+/*
+transition: change over time
+transition-property:
+transition-duration:
+transition-delay:
+shorthand
+*/
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+  border-radius: 50%;
+}
+.one {
+  background: black;
+  transition-property: background, border-radius;
+  transition-duration: 2s;
+}
+.two {
+  background: green;
+  transition-property: background, border-radius;
+  transition-duration: 2s, 4s;
+}
+.three {
+  background: blue;
+  transition-property: background, border-radius;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+.three:hover {
+  border-radius: 50%;
+}*/
+/* another */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: black;
+}
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+  /* transition: background 3s 2s, border-radius 5s 1s;*/
+  transition: all 4s 5s;
+}
+.three:hover {
+  border-radius: 50%;
+  background: coral;
+}

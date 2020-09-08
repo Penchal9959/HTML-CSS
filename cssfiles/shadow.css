@@ -1,0 +1,21 @@
+/*
+text-shadow
+box-shadow  search== (text-shadow generator)  and (box-shadow generator)
+    or autoprefix */
+h1 {
+  text-shadow: 3px 5px 2px red;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  /*box-shadow: 3px 5px 5px green;*/
+  transition: all 0.5s linear;
+}
+.box:hover {
+  border-radius: 88px 88px 88px 88px;
+  -moz-border-radius: 88px 88px 88px 88px;
+  -webkit-border-radius: 88px 88px 88px 88px;
+  border: 23px solid #000000;
+}
