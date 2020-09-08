@@ -1,0 +1,17 @@
+/* basic selectors */
+* {
+  color: red;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+.heading {
+  color: green;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+p {
+  letter-spacing: 20px;
+}

@@ -1,0 +1,44 @@
+/*
+line - height
+letter - spacing
+word-spacing
+text-transform
+text-decoration
+*/
+a {
+  font-size: 30px;
+  text-decoration: none; /* remove the under line of the link */
+}
+
+.body {
+  background: cornsilk;
+}
+.head1 {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: line-through; /* striking the sentence */
+}
+.head2 {
+  color: greenyellow;
+}
+.para1 {
+  color: cyan;
+  line-height: 3em;
+  font-size: 20px;
+  text-decoration: overline;
+}
+.para2 {
+  color: blue;
+  font-size: 20px;
+  letter-spacing: 7px;
+  text-decoration: underline;
+}
+.para3 {
+  color: green;
+  font-size: 20px;
+  word-spacing: 20px;
+}
+.para4 {
+  color: brown;
+  font-size: 20px;
+}

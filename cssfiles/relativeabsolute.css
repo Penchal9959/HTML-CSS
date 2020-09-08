@@ -1,0 +1,15 @@
+/*
+rem - RELATIVE depends on root
+1rem = 16px default browser style;
+*/
+/*/*  html{
+    font-size:32px; /* changing the browser pixel value */
+div {
+  font-size: 30px;
+}
+.relative {
+  font-size: 2em; /* this pixel change based on the <div> */
+}
+.absolute {
+  font-size: 32px;
+}

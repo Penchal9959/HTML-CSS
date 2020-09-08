@@ -1,0 +1,30 @@
+/* import from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@300&display=swap");
+
+/* 
+GOOGLE FONTS
+search in google: google fonts  and copy the link of the font style*/
+
+/*
+font-weight
+font-style
+*/
+body {
+  font-family: "Pangolin", cursive;
+}
+.sub {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.main {
+  font-family: "Roboto", sans-serif;
+}
+.one {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+.two {
+  font-size: 50px;
+  font-weight: bold;
+}

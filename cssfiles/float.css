@@ -1,0 +1,19 @@
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden; /*crop the image */
+}
+img {
+  /*float: right;*/
+  float: left;
+}
+p {
+  clear: left;
+}
+.one {
+  float: right;
+}
+.two {
+  float: left;
+  height: 1000px;
+}
