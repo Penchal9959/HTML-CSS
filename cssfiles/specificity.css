@@ -1,8 +1,0 @@
-/* exicuites only this one*/
-.red {
-  color: red;
-}
-/* this is not exicuited*/
-p {
-  color: green;
-}
