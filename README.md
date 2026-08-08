@@ -1,7 +1,7 @@
 # HTML and CSS Practice
 
-**Archived.** A set of learning exercises kept as a record. Not a project, not a
-library, and not maintained.
+A set of learning exercises, kept as a record of learning the language rather
+than as a project or a library.
 
 > **Cloning this on Windows will fail partway.** One file is named
 > `HTML5/<!DOCTYPE html>.html`, which is legal on Linux and macOS but not on
@@ -59,7 +59,7 @@ Two filenames in `HTML5/` are broken - `<!DOCTYPE html>.html`, and files saved
 with no extension at all (`django form`, `form django`). They are what happens
 when a save dialog is given the content instead of the name.
 
-They have been left alone deliberately. Renaming files in an archived record of
+They have been left alone deliberately. Renaming files in a record of
 what was actually written would make it a less accurate record.
 
 One consequence is worth knowing: the angle brackets in `<!DOCTYPE html>.html`
