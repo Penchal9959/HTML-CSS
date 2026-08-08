@@ -1,0 +1,13 @@
+/* :hover */
+
+p:hover {
+  font-size: 40px;
+  color: green;
+}
+.header:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}

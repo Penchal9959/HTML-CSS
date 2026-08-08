@@ -1,0 +1,10 @@
+body {
+  color: blueviolet;
+  font-size: 1rem;
+}
+/* comment line */
+h2,
+p {
+  color: chocolate;
+  font-size: 2rem;
+}

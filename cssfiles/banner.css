@@ -1,0 +1,41 @@
+/** {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+
+div {
+  min-height: 50vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: orange;
+}
+.banner {
+  background: url("./bigimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./bigimage.jpg") center/cover no-repeat fixed;
+}
+.colorZilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+49 */
+  background: #fefcea; /* Old browsers */
+  background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 49%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #fefcea 0%,
+    #f1da36 49%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #fefcea 0%,
+    #f1da36 49%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+}

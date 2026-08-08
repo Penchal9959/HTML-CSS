@@ -1,0 +1,15 @@
+/* 
+font-size font family
+*/
+
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-family: verdana;
+}
+
+/*
+font-stack generic-family
+serif, san-serif, cursive, fantasy, monospace
+*/

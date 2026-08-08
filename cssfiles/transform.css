@@ -1,0 +1,82 @@
+/* 
+transform : translate(), scale(), rotate(), skew()
+*/
+
+/* TRANSLATE()  */
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: translateX(30px);
+}
+.two {
+  background: green;
+  transform: translateY(20px);
+}
+.three {
+  background: blue;
+  transform: translate(20px, 30px);
+}*/
+
+/*  SCALE()  */
+
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: scaleX(2);
+}
+.two {
+  background: green;
+  transform: scaleY(2);
+}
+.three {
+  background: blue;
+  transform: scale(2, 2);
+} */
+
+/* ROTATE() */
+
+/*div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: rotate(45deg);
+}
+.two {
+  background: green;
+  transform: rotateZ(120deg);
+}
+.three {
+  background: blue;
+  transform: rotate(240deg);
+}*/
+
+/* SKEW()  */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: skewX(30deg);
+}
+.two {
+  background: green;
+  transform: skewY(-20deg);
+}
+.three {
+  background: blue;
+  transform: skew(45deg, -20deg);
+}

@@ -1,0 +1,8 @@
+/* this is not exicuite*/
+p {
+  color: red;
+}
+/* this is exicuite @ this is the lastrule */
+p {
+  color: green;
+}

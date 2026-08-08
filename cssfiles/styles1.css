@@ -1,0 +1,34 @@
+/*background color change */
+#title {
+  color: green;
+  font-size: 3rem;
+  background: cornflowerblue;
+}
+#footer {
+  color: red;
+  font-size: 3rem;
+  background: burlywood;
+}
+/*using class*/
+.red {
+  color: red;
+  background: blue;
+}
+.green {
+  color: green;
+}
+/* text upper case*/
+#title1 {
+  font-size: 40px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/*grouping*/
+/*div 
+  color: red;
+  background: coral;
+}*/
+span {
+  text-transform: uppercase;
+}

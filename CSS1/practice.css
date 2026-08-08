@@ -1,0 +1,270 @@
+body {
+  margin: 50px;
+}
+
+/* li:nth-child(3) {
+  color: blue;
+}
+#google:link {
+  color: green;
+} */
+
+/* h2 followed by a */
+/* h2 + a {
+  color: green;
+} */
+/*textarea followed by button*/
+/* textarea ~ button {
+  color: red;
+} */
+
+/* parent followed by child */
+
+/* ul > li {
+  color: yellow;
+} */
+
+/* ul li {
+  color: blue;
+}
+img[src^="./img/"] {   we can place (*) symbol instead of (^) this */
+/* border: 3px solid red;
+}*/
+
+/* h3[class~="about"] {
+  background: green;
+} */
+
+/* ---COLORS---- */
+/*  https://htmlcolorcodes.com/color-names/ */
+
+/* * {
+  background: rgba(0, 255, 0, 0.5);
+} */
+
+/* body {
+  background: url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+} */
+
+/* #image {
+  width: 300px;
+  height: 200px;
+  background: url("./img/smallimage.jpg");
+  /* background-repeat: no-repeat; */
+/*background-color: red;
+  /* background-size: 50px 100px; */
+/* background-size: cover; */
+/*background-size: contain;
+} */
+
+/* ----RGBA===RED GREEN BLUE ALPHA---- */
+#image {
+  /* width: 300px;
+  height: 200px; */
+  /* background: url("./img/smallimage.jpg");
+  background-color: steelblue; */
+  /* background: linear-gradient(to right, red, green, blue, yellow); */
+  /* background: linear-gradient(
+    to top right,
+    rgb(5, 52, 240),
+    rgb(5, 52, 240, 0)
+  ); */
+  /* background: linear-gradient(
+    210deg,
+    rgb(5, 52, 240),
+    rgb(5, 52, 240, 0)
+  ); */
+  width: 500px;
+  height: 300px;
+  background: radial-gradient(circle, red 20%, green 30%, blue 40%, yellow 50%);
+}
+
+/* ---UNITS=== RELATIVE UNIT AND ABSOLUTE UNITES */
+/* RELATIVE=== PERCENTAGE AND PIXELS  ,,em===it doubles the default fontsize 
+    vh===view height, vw===viewwidth
+
+/* ABSOLLUTE=== CM, MM, INCHES, ABSOLUTE=== ( px===smaller, pt===medium, pc===large*/
+/* 
+font-size:2cm;
+font-size:2mm; */
+
+/* ----TEXT MANIPULATION---- */
+/*.heading {
+  /* text-decoration: none; */
+/* text-decoration: underline; */
+/* text-decoration: line-through; */
+/* text-decoration: overline; */
+
+/* text-transform: capitalize; */
+/* text-transform: uppercase;
+  /* text-transform: capitalize; */
+/* text-align: center; */
+/* text-align: justify; */
+
+.style {
+  font-style: italic;
+  /* font-family: sans-serif; default family */
+  font-family: "Times New Roman", Times, serif;
+}
+/* font family from external source */
+/* font-family:"serif"; */
+
+/* -----CSS BOX MODEL--------- */
+
+/*#dog {
+  height: 600px;
+  width: 80%;
+  /* padding: 3px solid green; */
+/* border: 5px solid rgba(221, 95, 107, 0.75); */
+/* border: 5px dotted rgba(221, 95, 107, 0.75); */
+/*border: 10px solid rgba(221, 95, 107, 0.75);
+  /* border: 5px dashed rgba(221, 95, 107, 0.75); */
+/* border: 5px dashed rgba(221, 95, 107, 0.75); */
+
+/* ----padding--------- */
+/* padding: 20px; */
+/*padding-left: 50px;
+  padding-right: 30px;
+  padding-top: 15px;
+  /* padding:top, right, bottom, left */
+/*padding: 15px 30px 60px 50px;
+
+  /* -----margin------- */
+/* margin:(top,bottom)  (left,right) */
+/*margin: 50px 30px;
+}
+
+/* ----------- FLOAT AND DISPLAY -------------- */
+#dog {
+  height: 300px;
+  width: 60%;
+  /* float: left; */
+}
+/* .page {
+  display: none; /* the h1 text is replaced by above image */
+
+/* ------Flex------------ */
+/* .container {
+  background-color: rgb(250, 250, 250);
+  margin: 10px;
+  height: 300px;
+  display: flex;
+  /* flex-direction:column; */
+/* flex-direction: column-reverse; */
+/* flex-direction: row-reverse; */
+/*flex-direction: row;
+  /* flex-wrap: wrap; */
+/* justify-content: center; */
+/* justify-content: flex-end; */
+/* justify-content: space-between; */
+/* justify-content: space-around; */
+/* align-items: center; */
+/* align-items: flex-start; */
+/* align-items: flex-end; */
+/* align-items: stretch; */
+/* align-items: baseline; */
+
+/* -----flex-item order--------- */
+/* }
+.container1 {
+  background: rgb(36, 130, 39);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+} */
+
+.grid-container {
+  margin: 10px;
+  height: 300px;
+  background: rgb(250, 250, 250);
+  display: grid;
+  /* grid-template-columns: 10px 50px 10px; */
+  /* grid-template-rows: 50px 150px; */
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: auto /*100px*/ auto auto;
+  grid-template-rows: auto auto;
+  /* justify-content: end; */
+  /* justify-content: start; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* align-content: space-between; */
+  /* align-content: end; */
+  /* grid-row-gap: 300px; */
+  /* grid-column-gap: 100px; */
+  /* grid-gap:rows columns; */
+  /* grid-gap: 300px 100px; */
+}
+
+.grid-item {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+}
+
+.button {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background: rgb(89, 150, 255);
+  /* transform:translate(x axis, y axis); */
+  /* transform: translate(50px, 30px); */
+  /* transform: scale(1.5); */
+  /* transform: rotate(90deg); */
+  /* transform: rotate(-45deg); */
+  /* transform: skewX(45deg); */
+  /* transform: skewY(45deg); */
+  /* matrix( scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY() ) */
+  /* transform: matrix(1, 1.5, 2, 2.5, 3, 1); */
+  /* transition: background 300ms ease-in-out; */
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+.button:hover {
+  background: rgb(147, 180, 255);
+  padding: 20px 30px;
+  /* transform: translate(50px, 30px); */
+}
+
+/* ANIMATIONS */
+#contact {
+  animation-name: red-to-black;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  /* animation-delay: 1s; */
+  /* animation-iteration-count: 3; */
+  animation-iteration-count: infinite;
+  /* animation-direction:normal; */
+  /* animation-direction: reverse; */
+  /* animation-direction: alternate; */
+  animation-direction: alternate-reverse;
+
+  animation: red-to-black 4s linear 0s 2 alternate-reverse;
+}
+
+@keyframes red-to-black {
+  0% {
+    background: red;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    background: yellow;
+    transform: translate(10px, 10px);
+  }
+  100% {
+    background: black;
+    transform: translate(20px, 20px);
+  }
+}
