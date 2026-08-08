@@ -80,5 +80,10 @@ like these. Nothing here is reusable and none of it is meant to be.
 MIT, see [LICENSE](LICENSE). That covers the HTML and CSS, which are mine. It
 does not cover the sample photographs used to illustrate the exercises
 (`dogs.jpg`, `cat.jpeg`, `smoothie.jpeg`, `bigimage.jpg`, `folderimg.jpeg` and
-the two `smallimage.jpg`), which were collected from the web while learning and
-whose provenance was not recorded.
+the two `smallimage.jpg`).
+
+Some of their provenance is recoverable and some is not. `CSS1/practice.css` and
+`CSS1/practice.html` load images directly from Pexels by URL, and
+`HTML5/practice.html` links a Pexels photo page, so those are Pexels stock under
+the Pexels licence. The rest were saved locally while learning and their source
+was not recorded. Treat the local copies as unlicensed rather than as mine.
