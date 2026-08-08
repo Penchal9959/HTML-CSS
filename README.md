@@ -3,6 +3,16 @@
 **Archived.** A set of learning exercises kept as a record. Not a project, not a
 library, and not maintained.
 
+> **Cloning this on Windows will fail partway.** One file is named
+> `HTML5/<!DOCTYPE html>.html`, which is legal on Linux and macOS but not on
+> Windows, where `<` and `>` cannot appear in a filename. `git clone` aborts the
+> checkout at that path and leaves the rest of the working tree unwritten. **A
+> `git add -A` afterwards then records every unwritten file as deleted** - that
+> is exactly how this repository lost all ninety files once, in a commit that
+> was only meant to update the README. To clone it here, set
+> `git -c core.protectNTFS=false clone ...` and expect that one file still not
+> to be written; or clone `--bare`, which never touches a working tree.
+
 Eighty-eight files written while working through HTML and CSS from the
 beginning: 24 HTML pages, 54 stylesheets, and the images they load. Two further
 files, `HTML5/placeholder.mp4` and `HTML5/placeholder.jpg`, are generated
